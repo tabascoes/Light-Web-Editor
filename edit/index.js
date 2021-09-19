@@ -5,3 +5,4 @@ var simplemde = new SimpleMDE({
                   });
 
 var text = document.getElementById("editor").value;
+console.log(text);
