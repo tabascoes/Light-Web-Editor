@@ -3,3 +3,5 @@ var simplemde = new SimpleMDE({
                     forceSync: true,
                     autofocus: true
                   });
+
+var text = document.getElementById("editor").value;
