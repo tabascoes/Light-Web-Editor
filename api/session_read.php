@@ -6,6 +6,8 @@ $id = $_SESSION['id'];
 $key = $_SESSION['key'];
 $ip = $_SERVER['REMOTE_ADDR'];
 
+if $key = var_dump(ip2short($ip)){
+
 // Need to change iv
 openssl_decrypt($id, "AES-256-iv", $key, 0, "" );
 
@@ -31,4 +33,5 @@ $options = stream_context_create($options);
 $contents = file_get_contents($url, false, $options);
 
 // 出力
+}
 ?>
