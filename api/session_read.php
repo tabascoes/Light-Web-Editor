@@ -33,5 +33,5 @@ $options = stream_context_create($options);
 $contents = file_get_contents($url, false, $options);
 
 // 出力
-}
+};
 ?>
