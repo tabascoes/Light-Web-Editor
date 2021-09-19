@@ -13,7 +13,7 @@ $ipint = var_dump(ip2long($ip));
 
 $id = $session_id;
 $key = $ipint
-	
+
 setcookie("id",$id);
 setcookie("key",$key);
 ?>
